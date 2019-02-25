@@ -1,5 +1,3 @@
-
-
 describe("index.html", () => {
   it("includes 'hello'", () => {
     expect(document.querySelector('body').innerHTML).to.include('hello')
